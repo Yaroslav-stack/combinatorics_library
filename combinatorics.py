@@ -31,5 +31,3 @@ class Combinatorics:
             term = coeff * (a ** (n - k)) * (b ** k)
             terms.append(term)
         return sum(terms)
-    
-print(Combinatorics.binomial_expansion(7, 4, 5))
